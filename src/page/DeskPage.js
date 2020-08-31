@@ -21,7 +21,7 @@ const DeskPage = () => {
     setQueue(Counter.addQueue());
     const printDiv = document.getElementById('printme');
     if(printDiv){        
-        //window.print();
+        window.print();
         window.location.reload();        
     }
   }
